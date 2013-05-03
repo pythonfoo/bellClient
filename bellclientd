@@ -1,0 +1,30 @@
+#! /bin/sh
+
+# put this file into:
+# /etc/init.d/bellclientd
+
+touch /var/lock/bellclientd
+
+case "$1" in
+start)
+echo "Starting RasPi bell client ... "
+/home/bell/bellClient.py > /dev/null &
+;;
+stop)
+echo "Killing RasPi bell client ... "
+killall bellClient.py
+;;
+restart)
+echo "restarting ... "
+echo "Killing RasPi bell client ... "
+killall bellClient.py
+sleep 1
+echo "Starting RasPi bell client ... "
+/home/bell/bellClient.py > /dev/null &
+;;
+*)
+echo "Usage: /etc/init.d/bellclientd {start|stop|restart}"
+exit 1
+;;
+esac
+exit 0
