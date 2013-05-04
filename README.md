@@ -19,13 +19,19 @@ The server-side is an ugly PHP-script, so I would publish it on my [GitHub] [6] 
 
   1.) [Prototype] [1]  
   2.) [Prototype] [2] (blinking green light)  
-  3.) [Opto-isolator (Optokoppler)] [3] with tiny board  
+  3.) [Opto-isolator (Optokoppler) CNY 17-4] [3] with tiny board  
   4.) [tape it together] [4]  
   5.) [finished and installed] [5]  
 
-  [1]: https://twitter.com/bison_42/status/328607913226682368        "p1"
-  [2]: https://twitter.com/bison_42/status/328608426492039168        "p2"
-  [3]: https://twitter.com/bison_42/status/328609083286487040        "p3"
-  [4]: https://twitter.com/bison_42/status/328609371468746752        "p4"
-  [5]: https://twitter.com/bison_42/status/328609700549648384        "p5"
-  [6]: https://github.com/bison--                                    "p6"
+
+## Credits ##
+
+Thanks to [derf] [7] for the help selecting the right Opto-isolator.
+
+  [1]: https://twitter.com/bison_42/status/328607913226682368        "Prototype"
+  [2]: https://twitter.com/bison_42/status/328608426492039168        "Prototype"
+  [3]: https://twitter.com/bison_42/status/328609083286487040        "Opto-isolator"
+  [4]: https://twitter.com/bison_42/status/328609371468746752        "tape it together"
+  [5]: https://twitter.com/bison_42/status/328609700549648384        "finished and installed"
+  [6]: https://github.com/bison--                                    "myGitHub"
+  [7]: https://github.com/derf                                       "credits derf"
