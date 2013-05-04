@@ -7,7 +7,7 @@ It is mostly the same code as in the examples for the Pi.
 
 I had an remote controlled door bell with far to less range.  
 But it could reach the basement, where the main network infrastructure is located.  
-So instead of making/buying any kind of radio transmitter, I used what i had (an really cheap remote door bell).  
+So instead of making/buying any kind of radio transmitter, I used what I had (an really cheap remote door bell).  
 I grabed one of the blinking LEDs and conected it with an Opto-isolator to the Pi.  
 When the light fires up, I get the signal, using **wget** to "grab" an prepared webpage on the other Pi (with Apache)
 on my destination and playing now how I think a door bell should sound like ;)
