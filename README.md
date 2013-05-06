@@ -10,7 +10,7 @@ But it could reach the basement, where the main network infrastructure is locate
 So instead of making/buying any kind of radio transmitter, I used what I had (an really cheap remote door bell).  
 I grabed one of the blinking LEDs and conected it with an Opto-isolator to the Pi.  
 When the light fires up, I get the signal, using **wget** to "grab" an prepared webpage on another Pi (with Apache)
-on my destination and playing now how I think a door bell should sound like ;)  
+on my destination and playing sounds which I think a door bell should play ;)  
 
 The server-side is an ugly PHP-script, so I would publish it on my [GitHub] [6] account, instead (soon [tm] ;)
 
